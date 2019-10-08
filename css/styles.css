@@ -22,8 +22,20 @@ body {
   padding-top: 140px;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacticy: 1;
+    transform: none;
+  }
+}
+
 main {
   min-height: 100vh;
+  animation: fadeIn 0.5s ease-in-out;
 }
 
 a {
