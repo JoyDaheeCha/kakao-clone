@@ -17,5 +17,10 @@ body {
     background-color: white;
     padding: 10px 20px;
     color: #020202;
-    font-family: "Open Sans"
+    font-family: "Open Sans";
+    padding-top: 140px;
+}
+
+main {
+    min-height: 100vh;
 }
