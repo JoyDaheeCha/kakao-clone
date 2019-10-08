@@ -8,6 +8,7 @@
       src="https://kit.fontawesome.com/633bdcc7c4.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <title>Settings | Kakao Clone</title>
   </head>
   <body>
@@ -28,48 +29,50 @@
         <i class="fas fa-battery-half"></i>
       </div>
     </div>
-    <header>
+    <header class="header">
       <div class="header__header-column">
-        <div class="header__back-btn">&lt</div>
+        <span class="header__icon">
+          <i class="fas fa-angle-left"></i>
+        </span>
       </div>
       <div class="header__header-column">
-        <h1 class="header_title">Settings</h1>
+        <h1 class="header__title">Settings</h1>
       </div>
+      <!--div to move the text 'setting' to the center-->
+      <div class="header__header-column"></div>
     </header>
-    <main class="more">
-      <div class="more__search">
-        <i class="fas fa-search"></i>
-        설정 검색
+    <main class="setting">
+      <div class="setting__search">
+        <div class="item__icon">
+          <i class="fas fa-search"></i>
+        </div>
+        <input type="text" placeholder="설정 검색" class="chat__write-input" />
       </div>
-      <ul class="search__list">
-        <li class="search__list-item">
-          <span class="item__icon">
+      <ul class="setting__list">
+        <li class="setting__list-item">
+          <div class="item__icon">
             <i class="fas fa-bullhorn"></i>
-          </span>
-          <span class="item__title">
-            Notice
-          </span>
+          </div>
+          <span class="item__title">Notice</span>
         </li>
-        <li class="search__list-item">
-          <span class="item__icon">
+        <li class="setting__list-item">
+          <div class="item__icon">
             <i class="fas fa-flask"></i>
-          </span>
-          <span class="item__title">
-            Lab
-          </span>
+          </div>
+          <div class="item__title">Lab</span>
         </li>
-        <li class="search__list-item">
-          <span class="item__icon">
+        <li class="setting__list-item">
+          <div class="item__icon">
             <i class="fas fa-info-circle"></i>
-          </span>
-          <span class="item__title">
+          </div>
+          <div class="item__title">
             Version info
-          </span>
+          </div>
         </li>
       </ul>
     </main>
     <nav class="nav">
-      <ul class="nav___list">
+      <ul class="nav__list">
         <li class="nav__list-item">
           <a href="friends.html" class="nav__list-link">
             <i class="far fa-user"></i>

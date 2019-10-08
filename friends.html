@@ -29,67 +29,65 @@
         <i class="fas fa-battery-half"></i>
       </div>
     </div>
-    <header>
+    <header class="header">
       <div class="header__header-column">
-        <h1 class="header_title">Friends</h1>
+        <h1 class="header__title">Friends</h1>
       </div>
       <div class="header__header-column">
-        <span class="header_icon">
+        <span class="header__icon">
           <i class="fas fa-search"></i>
         </span>
-        <span class="header_icon">
+        <span class="header__icon">
           <i class="fas fa-user-plus"></i>
         </span>
-        <span class="header_icon">
+        <span class="header__icon">
           <i class="fas fa-music"></i>
         </span>
-        <span class="header_icon">
-          <i class="fas fa-cog"></i>
+        <span class="header__icon">
+          <a href="settings.html">
+            <i class="fas fa-cog"></i>
+          </a>
         </span>
       </div>
     </header>
     <main class="friends">
-      <header class="friends__header">
+      <header class="friends__header friend">
         <div class="friends__column">
-          <div class="friends_friend friend--lg">
-            <img src="images/avatar.jpg" class="g-avatar frined__avatar" />
-            <div class="friend__content">
-              <span class="friend__name">
-                Dahee Joy Cha
-              </span>
-              <span class="friend__status">
-                Chin up!
-              </span>
+          <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
+          <div class="friend__content">
+            <div class="friend__name">
+              Dahee Joy Cha
+            </div>
+            <div class="friend__status">
+              Chin up!
             </div>
           </div>
         </div>
       </header>
-      <div class="friends_channel">
-        <h5 class="frineds_title">Channel</h5>
-        <div class="friends__column">
-          <div class="friends_friend">
-            <img src="images/avatar.jpg" class="g-avatar frined__avatar" />
+      <div class="friends__channel">
+        <h5 class="friends__title">Channel</h5>
+        <div class="friend">
+          <div class="friends__column">
+            <img src="images/avatar.jpg" class="friend__avatar" />
             <div class="friend__content">
-              <span class="friend__name">
+              <div class="friend__name">
                 Channel
-              </span>
+              </div>
             </div>
           </div>
         </div>
       </div>
       <ul class="friends__list">
-        <h5 class="friends_title">Friends 125</h5>
-        <li>
+        <h5 class="friends__title">Friends 125</h5>
+        <li class="friend">
           <div class="friends__column">
-            <div class="friends_friend friend--lg">
-              <img src="images/avatar.jpg" class="g-avatar frined__avatar" />
-              <div class="friend__content">
-                <span class="friend__name">
-                  Dahee Joy Cha
-                </span>
-                <span class="friend__status">
-                  Chin up!
-                </span>
+            <img src="images/avatar.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <div class="friend__name">
+                Dahee Joy Cha
+              </div>
+              <div class="friend__status">
+                Chin up!
               </div>
             </div>
           </div>
@@ -103,7 +101,7 @@
       </ul>
     </main>
     <nav class="nav">
-      <ul class="nav___list">
+      <ul class="nav__list">
         <li class="nav__list-item">
           <a href="friends.html" class="nav__list-link">
             <i class="fas fa-user"></i>

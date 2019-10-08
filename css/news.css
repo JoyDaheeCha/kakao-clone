@@ -1,0 +1,18 @@
+.news__list-item {
+    border-bottom: 1px solid rgb(233, 232, 232);
+    padding: 10px;
+}
+
+.news-with-pic {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news_pic {
+    width: 80%;
+    height: 70%;
+}
+
+.news-with-pic__item {
+    text-align: center;
+}

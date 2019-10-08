@@ -1,0 +1,48 @@
+.more__pay {
+    display: flex;
+    background-color: rgb(233, 232, 232);
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.pay_column {
+    margin: 15px;
+}
+
+.pay_charge-btn {
+    margin-left: 5px;
+    padding: 2px;
+    background-color: white;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 5px;
+}
+
+.more__btn-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.more__btn-list {
+    width: 100%;
+}
+
+.more__btn {
+    padding: 10px;
+    width: 25%;
+    text-align: center;
+}
+
+.more_btn-icon {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.add-pic {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.more__add {
+    margin-top: 20px;
+}

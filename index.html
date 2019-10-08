@@ -29,49 +29,51 @@
         <i class="fas fa-battery-half"></i>
       </div>
     </div>
-    <header>
+    <header class="header">
       <div class="header__header-column">
-        <h1 class="header_title">Chats</h1>
+        <h1 class="header__title">Chats</h1>
       </div>
       <div class="header__header-column">
-        <span class="header_icon">
+        <span class="header__icon">
           <i class="fas fa-search"></i>
         </span>
-        <span class="header_icon">
+        <span class="header__icon">
           <i class="fas fa-user-plus"></i>
         </span>
-        <span class="header_icon">
+        <span class="header__icon">
           <i class="fas fa-music"></i>
         </span>
-        <span class="header_icon">
+        <span class="header__icon">
           <i class="fas fa-cog"></i>
         </span>
       </div>
     </header>
     <main class="chats">
       <ul class="chats__list">
-        <li class="chats__chat">
-          <a href="chat.html">
-            <div class="chat__column">
-              <img class="chat__avatar g-avatar" src="images/avatar.jpg" />
-              <div class="chat__content">
-                <span class="chat__username">
+        <a href="chat.html">
+          <li class="friend">
+            <div class="friends__column">
+              <img src="images/avatar.jpg" class="friend__avatar" />
+              <div class="friend__content">
+                <div class="friend__name">
                   Heejun Choi
-                </span>
-                <span class="chat__preview">
+                </div>
+                <div class="friend__text">
                   Wake up-!
-                </span>
+                </div>
               </div>
             </div>
-            <div class="chat__column">
-              <span class="chcat__timestamp">Yesterday</span>
+            <div class="friends__column">
+              <div class="friend__timestamp">
+                <span>Yesterday</span>
+              </div>
             </div>
-          </a>
-        </li>
+          </li>
+        </a>
       </ul>
     </main>
     <nav class="nav">
-      <ul class="nav___list">
+      <ul class="nav__list">
         <li class="nav__list-item">
           <a href="friends.html" class="nav__list-link">
             <i class="far fa-user"></i>
@@ -79,6 +81,7 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">8</div>
             <i class="fas fa-comment"></i>
           </a>
         </li>

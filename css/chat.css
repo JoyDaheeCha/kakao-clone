@@ -1,0 +1,120 @@
+.chats-body {
+    padding: 0;
+}
+
+.chats-body .header,
+.chats-body .status-bar {
+    padding: 10px 20px;
+}
+
+.chat {
+    background-color: rgb(226, 206, 140);
+    min-height: 100vh;
+}
+
+.chat__timestamp {
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.chat__write {
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(243, 241, 241);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+}
+
+.chat__write-column:nth-child(1) {
+    font-size: 20px;
+    text-align: center;
+    margin: 5px 5px;
+    width: 10%;
+}
+
+.chat__write-column:nth-child(2) {
+    font-size: 20px;
+    background-color: rgb(230, 227, 227);
+    margin: 10px 50px 10px 10px;
+    width: 90%;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chat__write-column input {
+    width: 70%;
+    border: none;
+    background-color: transparent;
+}
+
+input:focus {
+    outline: none;
+}
+
+.chat__write-icon {
+    margin-left: 5px;
+}
+
+.chat__messages {
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    width: 80%;
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.incoming-message img {
+    width: 50px;
+}
+
+.message__author {
+    color: white;
+    margin: 10px;
+    font-weight: 700;
+}
+
+.message__bubble {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(180, 162, 104);
+}
+
+.message_timestamp {
+    color: rgb(172, 172, 172);
+}
+
+.incoming-message {
+    align-self: flex-start;
+}
+
+.incoming-message .message__bubble {
+    border-bottom-left-radius: 0px;
+}
+
+.outgoing-message {
+    align-self: flex-end;
+    justify-content: flex-end;
+}
+
+.outgoing-message .message__bubble {
+    border-bottom-right-radius: 0px;
+}
+
+.message__content {
+    width: 80%;
+}

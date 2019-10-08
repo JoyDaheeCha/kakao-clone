@@ -1,0 +1,23 @@
+.setting__search,
+.setting__list-item {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+
+.setting__list-item {
+    border-bottom: 1px solid rgb(233, 232, 232);
+}
+
+.item__icon {
+    width: 50px;
+    font-size: 30px;
+}
+
+
+.setting__search input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}

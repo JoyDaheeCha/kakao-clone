@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.header__title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.header__icon {
+    font-size: 28px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.not-selected {
+    color: rgba(0, 0, 0, 0.26);
+}
+
+.selected {
+    text-decoration: underline;
+}
