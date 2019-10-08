@@ -7,20 +7,25 @@
 @import "more.css";
 @import "chat.css";
 @import "setting.css";
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+@import "mobile.css";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: white;
-    padding: 10px 20px;
-    color: #020202;
-    font-family: "Open Sans";
-    padding-top: 140px;
+  background-color: white;
+  padding: 10px 20px;
+  color: #020202;
+  font-family: "Open Sans";
+  padding-top: 140px;
 }
 
 main {
-    min-height: 100vh;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
 }
