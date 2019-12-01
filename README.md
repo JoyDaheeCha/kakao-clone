@@ -3,9 +3,6 @@
 ## Demo Link
 https://joydaheecha.github.io/kakao-clone/
 
-## Demo Video
-![](demo.gif)
-
 ## Project Description 
 Hello. Thank you for having interest in my Kakao-clonning project.  
 This is a Toy project that I did in Nomad Academy purposing to practice HTML and CSS.  
